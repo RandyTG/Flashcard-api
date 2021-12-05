@@ -17,7 +17,7 @@ module.exports = {
     migrations: {
       directory: path.join(__dirname, "src", "db", "migrations"),
     },
-    seed: {
+    seeds: {
       directory: path.join(__dirname, "src", "db", "seeds"),
     },
     debug: !!DEBUG,
@@ -33,7 +33,7 @@ module.exports = {
     migrations: {
       directory: path.join(__dirname, "src", "db", "migrations"),
     },
-    seed: {
+    seeds: {
       directory: path.join(__dirname, "src", "db", "seeds"),
     },
     debug: !!DEBUG,
@@ -61,7 +61,7 @@ module.exports = {
     migrations: {
       directory: path.join(__dirname, "src", "db", "migrations"),
     },
-    seed: {
+    seeds: {
       directory: path.join(__dirname, "src", "db", "seeds"),
     },
     debug: !!DEBUG,
